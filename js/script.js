@@ -16,3 +16,13 @@ for (let i=0; i<listaSpesa.length; i++) {
   <li>${listaSpesa[i]}</li>
   `;  
 }
+
+const listaWhile = el('.lista-while');
+let i=0;
+
+while (i < listaSpesa.length) {
+  listaWhile.innerHTML += `
+  <li>${listaSpesa[i]}</li>
+  `;
+  i++;
+}
